@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "products-team",
+  "displayName": "产品生成小分队",
+  "description": "用于产品发现、PRD、需求澄清、用户研究和工程交接的团队模板。",
+  "members": [
+    {
+      "name": "pm",
+      "role": "产品经理",
+      "workflowFile": "members/product-manager.md"
+    },
+    {
+      "name": "researcher",
+      "role": "用户研究",
+      "workflowFile": "members/researcher.md"
+    },
+    {
+      "name": "engineer",
+      "role": "工程拆解",
+      "workflowFile": "members/engineer.md"
+    },
+    {
+      "name": "reviewer",
+      "role": "需求审查",
+      "workflowFile": "members/reviewer.md"
+    }
+  ],
+  "skillPaths": [
+    ".claude/skills/prd-writing",
+    ".claude/skills/requirement-review"
+  ],
+  "memoryPaths": [
+    ".claude/CLAUDE.md"
+  ],
+  "tags": [
+    "product",
+    "prd",
+    "planning"
+  ]
+}

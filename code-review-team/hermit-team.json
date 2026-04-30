@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "code-review-team",
+  "displayName": "代码审查小分队",
+  "description": "用于 correctness、测试、安全、可维护性和回归风险审查的团队模板。",
+  "members": [
+    {
+      "name": "reviewer",
+      "role": "代码审查",
+      "workflowFile": "members/reviewer.md"
+    },
+    {
+      "name": "tester",
+      "role": "测试审查",
+      "workflowFile": "members/tester.md"
+    },
+    {
+      "name": "security",
+      "role": "安全审查",
+      "workflowFile": "members/security.md"
+    }
+  ],
+  "skillPaths": [
+    ".claude/skills/code-review",
+    ".claude/skills/security-review"
+  ],
+  "memoryPaths": [
+    ".claude/CLAUDE.md"
+  ],
+  "tags": [
+    "review",
+    "quality",
+    "security"
+  ]
+}

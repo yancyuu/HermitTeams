@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "incident-response-team",
+  "displayName": "线上故障响应小分队",
+  "description": "用于告警分拣、日志分析、修复协调、风险控制和复盘的团队模板。",
+  "members": [
+    {
+      "name": "triage",
+      "role": "故障分拣",
+      "workflowFile": "members/triage.md"
+    },
+    {
+      "name": "fixer",
+      "role": "修复执行",
+      "workflowFile": "members/fixer.md"
+    },
+    {
+      "name": "postmortem",
+      "role": "复盘总结",
+      "workflowFile": "members/postmortem.md"
+    }
+  ],
+  "skillPaths": [
+    ".claude/skills/incident-triage",
+    ".claude/skills/postmortem-draft"
+  ],
+  "memoryPaths": [
+    ".claude/CLAUDE.md"
+  ],
+  "tags": [
+    "incident",
+    "ops",
+    "postmortem"
+  ]
+}

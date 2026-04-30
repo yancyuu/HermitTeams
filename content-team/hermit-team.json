@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "content-team",
+  "displayName": "内容生成小分队",
+  "description": "用于产品叙事、README、发布说明、社媒文案和对外沟通材料的团队模板。",
+  "members": [
+    {
+      "name": "writer",
+      "role": "内容写作",
+      "workflowFile": "members/writer.md"
+    },
+    {
+      "name": "editor",
+      "role": "编辑审校",
+      "workflowFile": "members/editor.md"
+    },
+    {
+      "name": "strategist",
+      "role": "产品叙事",
+      "workflowFile": "members/strategist.md"
+    }
+  ],
+  "skillPaths": [
+    ".claude/skills/product-narrative",
+    ".claude/skills/release-notes"
+  ],
+  "memoryPaths": [
+    ".claude/CLAUDE.md"
+  ],
+  "tags": [
+    "content",
+    "marketing",
+    "docs"
+  ]
+}

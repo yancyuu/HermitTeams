@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "frontend-team",
+  "displayName": "前端体验小分队",
+  "description": "用于 UI 实现、交互打磨、组件质量、可访问性和前端回归检查的团队模板。",
+  "members": [
+    {
+      "name": "ui-engineer",
+      "role": "前端工程师",
+      "workflowFile": "members/ui-engineer.md"
+    },
+    {
+      "name": "interaction",
+      "role": "交互设计",
+      "workflowFile": "members/interaction.md"
+    },
+    {
+      "name": "accessibility",
+      "role": "可访问性审查",
+      "workflowFile": "members/accessibility.md"
+    }
+  ],
+  "skillPaths": [
+    ".claude/skills/frontend-polish",
+    ".claude/skills/accessibility-review"
+  ],
+  "memoryPaths": [
+    ".claude/CLAUDE.md"
+  ],
+  "tags": [
+    "frontend",
+    "ui",
+    "ux"
+  ]
+}
