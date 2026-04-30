@@ -9,6 +9,7 @@ This repository is intentionally simple: every first-level directory that contai
 | Template | Purpose |
 |---|---|
 | `products-team` | Product discovery, PRD, requirement breakdown and engineering handoff. |
+| `development-team` | Spec-first software delivery with incremental implementation, tests and review. |
 | `frontend-team` | UI implementation, interaction polish, component quality and accessibility review. |
 | `code-review-team` | Code review, security review, test review and maintainability checks. |
 | `incident-response-team` | Incident triage, production debugging, fix coordination and postmortem. |

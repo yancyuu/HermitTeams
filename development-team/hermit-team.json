@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "development-team",
+  "displayName": "开发交付小分队",
+  "description": "用于规格先行、增量实现、测试验证、代码审查和安全边界控制的软件开发团队模板。",
+  "members": [
+    {
+      "name": "spec-owner",
+      "role": "规格负责人",
+      "workflowFile": "members/spec-owner.md"
+    },
+    {
+      "name": "architect",
+      "role": "架构师",
+      "workflowFile": "members/architect.md"
+    },
+    {
+      "name": "implementer",
+      "role": "实现工程师",
+      "workflowFile": "members/implementer.md"
+    },
+    {
+      "name": "tester",
+      "role": "测试工程师",
+      "workflowFile": "members/tester.md"
+    },
+    {
+      "name": "reviewer",
+      "role": "代码审查",
+      "workflowFile": "members/reviewer.md"
+    }
+  ],
+  "skillPaths": [
+    ".claude/skills/spec-first-development",
+    ".claude/skills/incremental-implementation",
+    ".claude/skills/tdd-quality-gate",
+    ".claude/skills/secure-skill-usage"
+  ],
+  "memoryPaths": [
+    ".claude/CLAUDE.md"
+  ],
+  "tags": [
+    "development",
+    "spec-first",
+    "tdd",
+    "code-review"
+  ]
+}
